@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Virtual Environment
+.venv
+.virtualenv
+.vscode
+
+# Environment Variables (Sensitive)
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys & Secrets
+*.key
+*.pem
+*.crt
+*.p12
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+*.sln.docstates
+
+# Reports (optional - comment out if you want to track reports)
+reports/*.html
+reports/*.json
+!reports/__init__.py
+!reports/report_generator.py
+
+# Cache directories
+.substorm/
+.cache/
+*.cache
+
+# Wordlists (large files)
+*.txt
+!requirements.txt
+!*.md
+wordlists/
+*.wordlist
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# profiling data
+.prof
